@@ -1,0 +1,8 @@
+.test {
+   background: red;
+   padding: 20px 10px;
+
+   &__child {
+      background: yellow;
+   }
+}
