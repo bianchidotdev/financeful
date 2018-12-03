@@ -6,3 +6,20 @@
       background: yellow;
    }
 }
+
+$numColumns: 4;
+$gutterWidth: 20px;
+.cardGroup {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px calc(-#{$gutterWidth} / 2);
+}
+
+.card {
+   width: calc(100% / #{$numColumns} - #{$gutterWidth});
+   min-width: 200px;
+   margin: calc(#{$gutterWidth} / 2);
+   padding: 20px;
+   border: 1px solid aquamarine;
+   background: #eee;
+}
