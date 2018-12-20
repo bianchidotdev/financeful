@@ -1,0 +1,9 @@
+// variables.scss
+// @import "{path}/utils/variables.scss";
+$color_test: red;
+
+// export to use in js files. import as needed, for example:
+// import variables from '{path}/utils/variables.scss';
+:export {
+  colorTest: $color_test;
+}
