@@ -1,0 +1,26 @@
+// dynamically interpolates (linearly) intial and final property values from a given screen minWidth to maxWidth
+@function linear-scale($propInit, $propFinal, $minWidth, $maxWidth) {
+   $slope: ($propFinal - $propInit) / ($maxWidth - $minWidth);
+   $intercept: $propInit - $slope * $minWidth;
+
+   @return calc(#{$slope * 100vw} + #{$intercept});
+}
+
+// Example usage:
+// @include responsive(padding, 10px, 20px, 320px, 1000px);
+// will result in 10px padding at 320px screen width,
+//    20px padding at 1000px screen width,
+//    15px padding at 660px screen width, etc.
+@mixin responsive($property, $propInit, $propFinal, $minWidth, $maxWidth) {
+   #{$property}: linear-scale($propInit, $propFinal, $minWidth, $maxWidth);
+
+   @media only screen and (min-width: $maxWidth) {
+      #{$property}: $propFinal;
+   }
+   @media only screen and (max-width: $minWidth) {
+      #{$property}: $propInit;
+   }
+}
+@mixin test($property, $color) {
+   #{$property}: $color;
+}

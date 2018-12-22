@@ -1,8 +1,11 @@
 @import "../utils/variables.scss";
+@import "../utils/utilities.scss";
 
 .test {
    background: $color_test;
-   padding: 20px 10px;
+   // padding: 20px 10px;
+   @include responsive(padding, 10px, 20px, 320px, 1000px);
+   // padding: linear-scale(10px, 20px, 320px, 1000px);
 
    &__child {
       font-weight: bold;
