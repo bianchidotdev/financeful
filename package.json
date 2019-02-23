@@ -26,7 +26,7 @@
     "gatsby-remark-images-contentful": "^2.0.4",
     "gatsby-remark-prismjs": "^3.1.0",
     "gatsby-source-contentful": "^2.0.15",
-    "gatsby-source-filesystem": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.22",
     "gatsby-transformer-remark": "^2.1.13",
     "include-media": "^1.4.9",
     "inquirer": "^6.2.0",
