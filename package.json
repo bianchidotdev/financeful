@@ -8,7 +8,7 @@
     "babel-plugin-styled-components": "^1.9.1",
     "chalk": "^2.4.1",
     "contentful-import": "^7.4.3",
-    "gatsby": "^2.0.56",
+    "gatsby": "^2.16.2",
     "gatsby-image": "^2.0.21",
     "gatsby-plugin-canonical-urls": "^2.0.7",
     "gatsby-plugin-catch-links": "^2.0.8",
@@ -60,7 +60,7 @@
     "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^6.0.0",
     "eslint-config-gatsby-standard": "^2.1.0",
     "prettier": "^1.15.2",
     "stylelint": "^9.9.0",
