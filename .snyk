@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:braces:20180219':
@@ -24,3 +24,384 @@ patch:
         patched: '2018-12-02T16:29:19.378Z'
     - gatsby-source-contentful > gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-build > download > caw > tunnel-agent:
         patched: '2018-12-02T16:29:19.378Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - contentful-import > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-plugin-netlify > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-remark-images-contentful > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - contentful-import > contentful-batch-libs > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - contentful-import > contentful-management > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint-plugin-import > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > css-loader > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint-plugin-graphql > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > gatsby-cli > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-remark-images-contentful > cheerio > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > contentful > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > deep-map > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > gatsby-plugin-sharp > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-config > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-php-plugin > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint > table > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > table > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint-processor-styled-components > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint-config-gatsby-standard > eslint-plugin-import > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - contentful-import > contentful-management > contentful-sdk-core > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > contentful > contentful-sdk-core > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > contentful > contentful-resolve-response > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby-source-contentful > gatsby-plugin-sharp > async > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint-config-gatsby-standard > babel-eslint > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > eslint-plugin-graphql > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint-config-gatsby-standard > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint-config-gatsby-standard > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint-processor-styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - eslint-config-gatsby-standard > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2020-05-01T01:35:03.633Z'
