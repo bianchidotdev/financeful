@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.1",
     "chalk": "^2.4.1",
-    "contentful-import": "^7.4.3",
+    "contentful-import": "^7.9.10",
     "gatsby": "^2.0.56",
     "gatsby-image": "^2.0.21",
     "gatsby-plugin-canonical-urls": "^2.0.7",
