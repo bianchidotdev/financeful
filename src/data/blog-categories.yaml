@@ -1,0 +1,9 @@
+- name: analysis
+  icon: code
+  color: yellow
+
+- name: tools
+  icon: image
+  color: orange
+
+- name: writing
