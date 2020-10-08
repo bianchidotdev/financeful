@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, useStaticQuery, Link as GatsbyLink } from 'gatsby'
 import GatsbyImage from 'gatsby-image'
 import SEO from '../components/seo'
+import { Link } from 'evergreen-ui'
 
 function Layout({ pageSEO = {}, children }) {
   const data = useStaticQuery(query)
@@ -14,12 +15,7 @@ function Layout({ pageSEO = {}, children }) {
       <header>
         <nav>
           {navLinks.map(({ name, path }) => (
-            <GatsbyLink
-              key={name}
-              as={GatsbyLink}
-              to={path}
-              partiallyActive={path !== '/'}
-            >
+            <GatsbyLink key={name} to={path} partiallyActive={path !== '/'}>
               {name}
             </GatsbyLink>
           ))}
@@ -35,12 +31,9 @@ function Layout({ pageSEO = {}, children }) {
       </header>
       <main>{children}</main>
       <footer>
-        {`© ${new Date().getFullYear()} ${author}. Find him on`}
+        {`© ${new Date().getFullYear()} ${author}`}
         {` `}
-        <GatsbyLink href={social.github} isExternal>
-          Github
-        </GatsbyLink>
-        {`!`}
+        <Link href={social.github}>Github</Link>
       </footer>
     </React.Fragment>
   )

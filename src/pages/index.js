@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link as GatsbyLink, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import { Card, Heading, Pane, Text, majorScale } from 'evergreen-ui'
 
 function HomePage({ data }) {
   const posts = data.allMdx.nodes
@@ -9,11 +10,27 @@ function HomePage({ data }) {
   return (
     <Layout pageSEO={{ title: 'Home' }}>
       {posts.map(post => (
-        <GatsbyLink key={post.id} to={post.fields.slug}>
-          <h1>{post.frontmatter.title || post.fields.slug}</h1>
-          <p>{post.frontmatter.date}</p>
-          <p>{post.frontmatter.description || post.excerpt}</p>
-        </GatsbyLink>
+        <Pane
+          is={GatsbyLink}
+          key={post.id}
+          to={post.fields.slug}
+          textDecoration="none"
+        >
+          <Card
+            background="tealTint"
+            elevation={2}
+            hoverElevation={3}
+            padding={majorScale(2)}
+          >
+            <Heading is="h1">
+              {post.frontmatter.title || post.fields.slug}
+            </Heading>
+            <Text display="block">{post.frontmatter.date}</Text>
+            <Text display="block">
+              {post.frontmatter.description || post.excerpt}
+            </Text>
+          </Card>
+        </Pane>
       ))}
     </Layout>
   )
