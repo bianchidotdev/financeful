@@ -1,0 +1,14 @@
+name: "Deploy Daily"
+on:
+  schedule:
+    - cron: "56 11 * * 1-5"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v2
+    - name: Call vercel webhook
+      run: |
+        curl -X POST ${{ secrets.VERCEL_PROD_DEPLOY_WEBHOOK }}

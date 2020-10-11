@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+bundle config set deployment 'true'
+bundle config set without 'development test'
+bundle install
+
+bundle exec rake darby:clean_content_directory
+bundle exec rake darby:generate_analyzed_data

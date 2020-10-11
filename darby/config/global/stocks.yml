@@ -1,0 +1,12 @@
+default:
+  stock: &stock
+    - name: Total Stock Market Index
+      type: stock
+      symbol: "VTI"
+    - name: Total Bond Market Index Fund
+      type: stock
+      symbol: "BND"
+  all:
+    - *stock
+
+  output_dir: content/finance/stocks

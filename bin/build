@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+ROOT=$PWD
+
+set -e
+
+cd darby
+./bin/generate_analyzed_data
+
+cd $ROOT/site
+./bin/build

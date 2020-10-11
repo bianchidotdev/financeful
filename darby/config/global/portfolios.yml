@@ -1,0 +1,40 @@
+default:
+  stock: &stock
+    - name: Total Stock Market
+      type: stock
+      holdings:
+        - symbol: "VTI"
+          weight: 1.0
+    - name: Classic 60-40
+      type: stock
+      holdings:
+        - symbol: "VTI"
+          weight: 0.6
+        - symbol: "BND"
+          weight: 0.4
+    - name: 3 Fund Portfolio
+      type: stock
+      holdings:
+        - symbol: "VTI"
+          weight: 0.4
+        - symbol: "VXUS"
+          weight: 0.2
+        - symbol: "BND"
+          weight: 0.4
+    # - name: All Seasons Portfolio
+    #   type: stock
+    #   holdings:
+    #     - symbol: "VTI"
+    #       weight: 0.3
+    #     - symbol: "" # long term bonds
+    #       weight: 0.4
+    #     - symbol: "" # intermediate bonds
+    #       weight: 0.15
+    #     - symbol: "" # commodities
+    #       weight: 0.075
+    #     - symbol: "GLD"
+    #       weight: 0.075
+  all:
+    - *stock
+  
+  output_dir: content/finance/portfolios
