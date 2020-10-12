@@ -2,3 +2,24 @@
 .DS_Store
 
 .vscode
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+site/static/osx-setup.sh
+
+
+# dotenv environment variables file
+.env
+.env.*
+!.env.example
+
+.cache
+**/.cache
+public
+
+
+.idea

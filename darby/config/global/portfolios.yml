@@ -37,4 +37,4 @@ default:
   all:
     - *stock
   
-  output_dir: content/finance/portfolios
+  output_dir: data/finance/portfolios

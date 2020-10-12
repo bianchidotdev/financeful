@@ -1,2 +1,3 @@
 .bundle
 vendor
+*.ipynb_checkpoints/

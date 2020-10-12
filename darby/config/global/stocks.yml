@@ -9,4 +9,4 @@ default:
   all:
     - *stock
 
-  output_dir: content/finance/stocks
+  output_dir: data/finance/stocks
