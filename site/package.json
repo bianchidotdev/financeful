@@ -16,7 +16,7 @@
     "gatsby-plugin-mdx": "^1.2.37",
     "gatsby-plugin-offline": "^3.2.31",
     "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sharp": "^2.6.31",
+    "gatsby-plugin-sharp": "^2.6.43",
     "gatsby-remark-copy-linked-files": "^2.3.13",
     "gatsby-remark-images": "^3.3.28",
     "gatsby-remark-prismjs": "^3.5.11",
