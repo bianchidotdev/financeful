@@ -91,6 +91,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-remark-images`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-yaml`
+    `gatsby-transformer-yaml`,
   ]
 }
