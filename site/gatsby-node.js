@@ -65,7 +65,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       categoryLinked: BlogCategoriesYaml @link(by: "name", from: "category")
       author: AuthorsYaml @link(by: "id")
     }
-  `
+    `
+      // type AuthorsYaml implements Node {
+      //   profile_picture: ImageSharp
+      // }
   createTypes(typeDefs)
 }
 
