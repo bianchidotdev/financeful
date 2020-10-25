@@ -1,0 +1,12 @@
+- id: michaeldbianchi
+  first_name: Michael
+  full_name: Michael Bianchi
+  bio: Hi. I'm Michael!
+  full_bio: Hello. I'm michael and I do all sorts of things. I do things like A and B and I like personal finance
+  profile_picture: ../../static/authors/michaeldbianchi.jpg
+- id: bradylambert
+  first_name: Brady
+  full_name: Brady Lambert
+  bio: Hi. I'm Brady
+  full_bio: Hallo. My name is brady and I like visualizations of physics-y things
+  profile_picture: ../images/michaeldbianchi.jpg

@@ -23,7 +23,7 @@ function HomePage({ data }) {
             padding={majorScale(2)}
           >
             <Heading is="h1">
-              {post.frontmatter.title || post.fields.slug}
+              {post.frontmatter.title || post.fields.slug} by {post.frontmatter.author.first_name}
             </Heading>
             <Text display="block">{post.frontmatter.date}</Text>
             <Text display="block">
@@ -58,6 +58,9 @@ export const pageQuery = graphql`
           categoryLinked {
             icon
             color
+          }
+          author {
+            first_name
           }
           date(formatString: "MMMM DD, YYYY")
           description

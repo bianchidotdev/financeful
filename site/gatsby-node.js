@@ -63,6 +63,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       category: String
       categoryLinked: BlogCategoriesYaml @link(by: "name", from: "category")
+      author: AuthorsYaml @link(by: "id")
     }
   `
   createTypes(typeDefs)
