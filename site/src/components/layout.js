@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, useStaticQuery, Link as GatsbyLink } from 'gatsby'
-import GatsbyImage from 'gatsby-image'
 import SEO from '../components/seo'
 import { Link } from 'evergreen-ui'
 
@@ -20,14 +19,6 @@ function Layout({ pageSEO = {}, children }) {
             </GatsbyLink>
           ))}
         </nav>
-        <GatsbyImage
-          fixed={data.avatar.childImageSharp.fixed}
-          alt={author}
-          imgStyle={{
-            borderRadius: `50%`,
-            minWidth: '50px'
-          }}
-        />
       </header>
       <main>{children}</main>
       <footer>
@@ -48,13 +39,6 @@ export default Layout
 
 const query = graphql`
   query {
-    avatar: file(relativePath: { eq: "profile-pic.jpg" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     site {
       siteMetadata {
         author

@@ -66,9 +66,9 @@ exports.createSchemaCustomization = ({ actions }) => {
       author: AuthorsYaml @link(by: "id")
     }
     `
-      // type AuthorsYaml implements Node {
-      //   profile_picture: ImageSharp
-      // }
+  // type AuthorsYaml implements Node {
+  //   profilePicture: ImageSharp
+  // }
   createTypes(typeDefs)
 }
 

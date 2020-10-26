@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link as GatsbyLink, graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../components/layout'
+import Author from '../components/author'
 // import { ArrowLeft, ArrowRight } from 'react-feather'
 // import { Box, Container, Divider, Flex, Heading, Text } from 'theme-ui'
 
@@ -21,6 +22,7 @@ function BlogPostTemplate({ data, pageContext }) {
         variant="article"
         sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
       > */}
+      <Author />
       <article>
         <header>
           <h1>{post.frontmatter.title}</h1>
