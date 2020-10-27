@@ -1,14 +1,24 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: "\U0001F41B Bug Report"
+about: "If something isn't working as expected \U0001F914."
 title: ''
-labels: ''
+labels: 'i: bug, i: needs triage'
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Bug Report
+
+**Current Behavior**
+A clear and concise description of the behavior.
+
+**Relevant Code**
+<!--- If you can do a little research and find the source of the issue -->
+
+```js
+var bad => (code) => here;
+```
+
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -17,22 +27,17 @@ Steps to reproduce the behavior:
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Expected behavior/code**
+A clear and concise description of what you expected to happen (or code).
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Environment**
+- Node/npm version: [e.g. Node 8/npm 5]
+- OS: [e.g. OSX 10.13.4, Windows 10]
+- Browser [e.g. chrome, safari]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Possible Solution**
+<!--- Only if you have suggestions on a fix for the bug -->
 
-**Additional context**
-Add any other context about the problem here.
+**Additional context/Screenshots**
+Add any other context about the problem here. If applicable, add screenshots to help explain.
