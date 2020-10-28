@@ -1,4 +1,3 @@
-import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql, useStaticQuery, Link as GatsbyLink } from 'gatsby'
 import SEO from '../components/seo'
@@ -9,7 +8,7 @@ function Layout({ pageSEO = {}, children }) {
   const { author, social, navLinks } = data.site.siteMetadata
 
   return (
-    <React.Fragment>
+    <>
       <SEO {...pageSEO} />
       <header>
         <nav>
@@ -26,7 +25,7 @@ function Layout({ pageSEO = {}, children }) {
         {` `}
         <Link href={social.github}>Github</Link>
       </footer>
-    </React.Fragment>
+    </>
   )
 }
 
