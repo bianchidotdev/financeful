@@ -65,10 +65,11 @@ GEM
     humanize (2.4.3)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
-    iruby (0.4.0)
+    iruby (0.5.0)
       bond (~> 0.5)
       data_uri (~> 0.1)
-      mimemagic (~> 0.3)
+      ffi-rzmq
+      mime-types (>= 3.3.1)
       multi_json (~> 1.11)
     lazy_high_charts (1.6.1)
       hash-deep-merge
@@ -79,7 +80,6 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
-    mimemagic (0.3.5)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
     multi_json (1.15.0)
